@@ -58,6 +58,10 @@ def main():
     else:
         print("MSN: \"Aluno Reprovado\"")
     print("=" * 50)
+    
+    # === ESTA É A LINHA QUE MANTÉM A JANELA ABERTA ===
+    print("\n")
+    input("Pressione ENTER para fechar o programa...")
 
 if __name__ == "__main__":
     main()
